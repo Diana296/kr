@@ -1,8 +1,0 @@
-import csv
-import io
-
-
-with io.open('the_matrix.txt', 'w', newline='', encoding='utf-8') as my_file:
-    columns = ['сокращение', 'русский', 'якутский']
-    wr = csv.writer(my_file, quoting=csv.QUOTE_ALL)
-   
